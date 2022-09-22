@@ -8,7 +8,8 @@ public class Test extends Addition {
 		/*It will throw error because we are trying to access
 		 * the default method in another package
 		 */
-		System.out.println(obj.addTwoNumbers(30, 15));
+		System.out.println(obj.addTwoNumbers(30, 15
+				));
 
 	}
 
