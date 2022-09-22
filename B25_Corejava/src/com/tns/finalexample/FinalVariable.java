@@ -3,7 +3,7 @@ package com.tns.finalexample;
 public class FinalVariable {
 	
 	//Declare a final instance variable.
-	final int a = 10 ;
+	int a = 10 ;
 	//Declare an instance method.
 	void change()
 	{
@@ -12,7 +12,7 @@ public class FinalVariable {
 		System.out.println(a);
 		
 		//Declare a final local variable inside the methos.
-		 final int i = 0;
+		 int i = 0;
 		for (i=0; i<5; i++) //complie time error.
 		{
 			System.out.println("Value of I :"+i);

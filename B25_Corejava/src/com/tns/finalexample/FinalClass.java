@@ -1,5 +1,5 @@
 package com.tns.finalexample;
-final class Test
+class Test
 {
 	void show()
 	{

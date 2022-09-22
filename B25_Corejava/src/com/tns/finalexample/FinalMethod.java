@@ -6,7 +6,7 @@ class MethodTest
 		System.out.println("this is a default contructor");
 	}
 	final int a = 20; //fianl variable.
-	final void show() //final method
+	void show() //final method
 	{
 		System.out.println("Value of a :" +a);
 	}
